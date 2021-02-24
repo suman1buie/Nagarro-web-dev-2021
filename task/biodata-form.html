@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bio-data</title>
+    <link rel="stylesheet" href="bio-style.css" />
+  </head>
+
+  <body>
+    <div class="heading">
+      <h1>My Bio Data</h1>
+    </div>
+    <div class="form-div">
+      <form action="#">
+        <div class="first">
+          <fieldset>
+            <legend style="text-align: center">Personal Information</legend>
+            <br />
+            <label for="FirstName">FirstName:</label>
+            <input
+              type="text"
+              id="FirstName:"
+              placeholder="First Name"
+              name="FirstName:"
+              required
+            />
+            <label for="LastName">LastName :</label>
+            <input
+              type="text"
+              id="LastName"
+              placeholder="Last Name"
+              name="LatName"
+              required
+            />
+            <br />
+            <br />
+            <label for="male">Male :</label>
+            <input type="radio" name="gender" id="male" />
+            <label for="female">Female :</label>
+            <input type="radio" name="gender" id="female" />
+            <label for="others">Others :</label>
+            <input type="radio" name="gender" id="others" />
+            <br />
+            <br />
+            <label for="">Date of Birth :</label>
+            <input type="date" />
+            <br />
+            <br />
+            <label for="email">E-Mail :</label>
+            <input type="email" placeholder="Enter Your Email" id="email" />
+            <br />
+            <br />
+            <label for="tel">Phone</label>
+            <input type="tel" id="tel" maxlength="10" placeholder="+91" />
+            <br />
+            <br />
+            <label for="height">Height</label>
+            <input type="number" max="10" / placeholder="Height in Feet"
+            id="height">
+            <br />
+            <br />
+          </fieldset>
+        </div>
+        <div class="second">
+          <fieldset>
+            <legend style="text-align: center">Education</legend>
+            <br />
+            <label for="school">School Name :</label>
+            <input type="text" id="school" placeholder="School Name" />
+            <br /><br />
+            <label for="school">Class :</label>
+            <input type="text" id="school" placeholder="Enter Class" />
+            <br />
+            <br />
+            <label for="Stream">Stream :</label>
+            <select name="" id="">
+              <option>Stream</option>
+              <option>CSE</option>
+              <option>IT</option>
+              <option>ECE</option>
+              <option>MEC</option>
+              <option>CE</option>
+              <option>EE</option>
+            </select>
+            <br /><br />
+            <label for="Marksheet">Marksheet :</label>
+            <input type="file" placeholder="Choose File" id="Marksheet" />
+            <br />
+            <br />
+          </fieldset>
+        </div>
+        <input id="btn" type="submit" />
+      </form>
+    </div>
+  </body>
+</html>

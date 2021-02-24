@@ -1,0 +1,42 @@
+*,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.heading {
+  position: relative;
+  margin-top: 10px;
+  text-align: center;
+  height: 50px;
+}
+.form-div {
+  position: absolute;
+  width: 640px;
+  left: 300px;
+}
+label {
+  position: relative;
+  left: 20px;
+}
+
+input,
+select {
+  position: relative;
+  margin-left: 20px;
+}
+#btn {
+  position: relative;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 50px;
+  height: 30px;
+  background-color: blue;
+  color: aliceblue;
+}
+input {
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid;
+  color: black;
+}

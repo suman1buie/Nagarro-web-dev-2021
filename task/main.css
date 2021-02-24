@@ -1,0 +1,17 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.headline {
+  text-align: center;
+}
+.link {
+  padding-top: 50px;
+  height: 400px;
+  border-radius: 20px;
+  text-align: center;
+}
+a {
+  margin-top: 20px;
+  padding-top: 20px;
+}
