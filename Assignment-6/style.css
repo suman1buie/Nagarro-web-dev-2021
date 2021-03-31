@@ -1,0 +1,138 @@
+*,
+html {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  background-color: cornsilk;
+  box-shadow: 5px 10px 20px burlywood;
+}
+
+h1 {
+  text-shadow: 4px 5px 2px violet;
+  color: royalblue;
+}
+
+section {
+  padding-top: 20px;
+  height: 80vh;
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  margin-top: 20px;
+  width: 300px;
+  height: 35px;
+  border: none;
+  background-color: black;
+  padding: 5px;
+  color: aliceblue;
+  font-size: 1rem;
+  border-radius: 3px;
+}
+.container {
+  border: 2px solid;
+  box-shadow: 2px 2px 2px rgb(4, 235, 4);
+}
+
+#input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 10px;
+}
+
+#btn {
+  margin: 20px 0px 0px 20px;
+  width: 50px;
+  height: 30px;
+  box-shadow: 1px 1px 1px salmon;
+  background-color: steelblue;
+  transition: all 0.5s ease;
+}
+
+#btn:hover {
+  width: 60px;
+  height: 35px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+#todo-list {
+  padding: 10px;
+  min-width: 400px;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+  margin: 3px;
+  padding: 5px;
+  list-style: none;
+}
+
+.test {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.del {
+  background-color: crimson;
+  border: none;
+  color: aliceblue;
+  width: 50px;
+  height: 30px;
+  border-radius: 2px;
+}
+
+.del:hover {
+  cursor: pointer;
+  background-color: red;
+  transition: all 0.3s ease;
+  height: 35px;
+}
+
+.edit {
+  background-color: darkolivegreen;
+  border: none;
+  color: aliceblue;
+  width: 50px;
+  height: 30px;
+  border-radius: 2px;
+}
+
+.edit:hover {
+  cursor: pointer;
+  background-color: green;
+  transition: all 0.3s ease;
+  height: 35px;
+}
+
+.btn-class {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
