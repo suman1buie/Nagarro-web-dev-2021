@@ -1,0 +1,46 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blanchedalmond;
+  color: brown;
+}
+
+#city {
+  height: 40px;
+  width: 300px;
+  border: 1px solid;
+}
+.container-all {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#city {
+  position: relative;
+}
+
+#main {
+  background-color: darkseagreen;
+  height: 300px;
+  width: 100vw;
+  border: 1px solid;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  color: antiquewhite;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
